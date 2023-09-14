@@ -1,6 +1,6 @@
 """Main file for Assignment 1."""
 
-from src.encryption import key_to_length, vigenere_encrypt, row_col_transpose
+from src.encryption import vigenere_encrypt, row_col_transpose
 from src.decryption import decrypt_row_col_transpose, decrypt_vigenre_cipher
 
 KEY_WIDTH = 15
